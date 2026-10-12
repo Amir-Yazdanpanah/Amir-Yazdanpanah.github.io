@@ -2,22 +2,21 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Ongoing research, manuscripts under review, and published papers.
 nav: true
 nav_order: 2
+_styles: |
+  .post > .post-header {
+    display: none;
+  }
 ---
 
 <!-- _pages/publications.md -->
-
-## Ongoing research
 
 ### Joint Evaluation of Accuracy, Reliability, and Security in DNNs with Approximate Multipliers
 
 **Amirhosein Yazdanpanah, Mahdi Taheri · Ongoing**
 
 Developing a framework to evaluate and select approximate multipliers for DNNs using a joint metric of inference accuracy and robustness to faults and adversarial attacks. The goal is to identify multiplier configurations that offer the best trade-off between accuracy, reliability, and security.
-
-## Manuscripts under review
 
 ### An Open-Source Framework for Energy and Latency Characterization of Embedded Platforms
 
