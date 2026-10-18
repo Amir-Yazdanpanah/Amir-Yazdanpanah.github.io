@@ -56,7 +56,7 @@ In Germany, I work on measurement-based energy and execution-time characterizati
 ## Publication
 
 {% for paper in site.data.homepage_publications %}
-<h3 style="font-size: 1.5rem;">
+<h3 style="font-size: 1rem;">
   {{ paper.title | escape }}
   <a href="{{ '/publications/' | relative_url }}" style="font-size: 1rem; font-weight: normal;" aria-label="Read more about {{ paper.title | escape }}">Read more</a>
 </h3>
