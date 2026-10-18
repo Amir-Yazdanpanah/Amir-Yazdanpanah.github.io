@@ -53,7 +53,14 @@ In Germany, I work on measurement-based energy and execution-time characterizati
 
 <hr style="clear: none; overflow: hidden; border: 0; border-top: 1px solid var(--global-divider-color, #ddd); margin: 1rem 0;">
 
-## [Publication]({{ '/publications/' | relative_url }})
+## Publication
+
+{% for paper in site.data.homepage_publications %}
+<h3 style="font-size: 1.5rem;">
+  {{ paper.title | escape }}
+  <a href="{{ '/publications/' | relative_url }}" style="font-size: 1rem; font-weight: normal;" aria-label="Read more about {{ paper.title | escape }}">Read more</a>
+</h3>
+{% endfor %}
 
 <hr style="clear: both; border: 0; border-top: 1px solid var(--global-divider-color, #ddd); margin: 1.5rem 0;">
 
