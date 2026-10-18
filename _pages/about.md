@@ -9,10 +9,24 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <div style="display: flex; justify-content: center; align-items: center; gap: 14px; margin: 12px 0;">
+      <a href="/assets/pdf/example_pdf.pdf" aria-label="Download CV" title="CV" style="display: inline-flex;">
+        <img src="/assets/img/social/cv.svg" width="24" height="24" alt="CV">
+      </a>
+      <a href="mailto:amiryazdanpanah26@gmail.com" aria-label="Email Amirhosein" title="Email" style="display: inline-flex;">
+        <img src="/assets/img/social/email.svg" width="24" height="24" alt="Email">
+      </a>
+      <a href="https://www.linkedin.com/in/amirhosein-yp/" aria-label="LinkedIn profile" title="LinkedIn" style="display: inline-flex;">
+        <img src="/assets/img/social/linkedin.svg" width="24" height="24" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/Amir-Yazdanpanah" aria-label="GitHub profile" title="GitHub" style="display: inline-flex;">
+        <img src="/assets/img/social/github.svg" width="24" height="24" alt="GitHub">
+      </a>
+    </div>
     <p>Rostock, Germany</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # profile links are displayed below the photo
 
 announcements:
   enabled: false # includes a list of news items
@@ -33,3 +47,17 @@ My experience spans system-level modeling and software development through RTL d
 In Germany, I work on measurement-based energy and execution-time characterization of embedded workloads. This builds on my master’s research into machine-learning-based, cycle-accurate power estimation at RTL. I also investigate the reliability and security of approximate arithmetic in neural networks, studying how bit flips and deliberate attacks affect their predictions and robustness.
 
 ## [Publication]({{ '/publications/' | relative_url }})
+
+## Selected Projects
+
+{% assign selected_projects = site.projects | where: 'selected', true | sort: 'importance' %}
+{% for project in selected_projects %}
+
+### {{ project.title }}
+
+{{ project.description }}
+
+_{{ project.technologies }}_
+
+<a class="btn btn-sm btn-outline-primary" href="{{ project.url | relative_url }}" aria-label="Read more about {{ project.title | escape }}">Read more</a>
+{% endfor %}

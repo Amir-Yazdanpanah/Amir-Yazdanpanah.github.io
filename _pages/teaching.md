@@ -1,15 +1,23 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+title: Teaching Experience
+description: Teaching and laboratory instruction in computer architecture and digital systems.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Fall 2023
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+- **Instructor — Computer Architecture Lab** · Dr. Saeid Safari
+- **Instructor — Digital Logic Design Lab** · Prof. Zainalabedin Navabi
 
-{% include courses.liquid %}
+## Spring 2023
+
+- **Graduate Teaching Assistant — Formal Verification and Debug of Digital Systems** · Prof. Bijan Alizadeh
+- **Instructor — Computer Architecture Lab** · Dr. Saeid Safari
+- **Instructor — Digital Logic Design Lab** · Prof. Zainalabedin Navabi
+
+## Fall 2022
+
+- **Teaching Assistant — Digital Logic Design** · Prof. Zainalabedin Navabi

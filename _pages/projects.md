@@ -1,11 +1,10 @@
 ---
 layout: page
-title: projects
+title: Selected Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected projects in computing systems, hardware design, and FPGA development.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: false
 ---
 
@@ -41,7 +40,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.projects | where: 'selected', true | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
