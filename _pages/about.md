@@ -9,21 +9,38 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <div style="display: flex; justify-content: center; align-items: center; gap: 14px; margin: 12px 0;">
-      <a href="/assets/pdf/example_pdf.pdf" aria-label="Download CV" title="CV" style="display: inline-flex;">
-        <img src="/assets/img/social/cv.svg" width="24" height="24" alt="CV">
-      </a>
-      <a href="mailto:amiryazdanpanah26@gmail.com" aria-label="Email Amirhosein" title="Email" style="display: inline-flex;">
-        <img src="/assets/img/social/email.svg" width="24" height="24" alt="Email">
-      </a>
-      <a href="https://www.linkedin.com/in/amirhosein-yp/" aria-label="LinkedIn profile" title="LinkedIn" style="display: inline-flex;">
-        <img src="/assets/img/social/linkedin.svg" width="24" height="24" alt="LinkedIn">
-      </a>
-      <a href="https://github.com/Amir-Yazdanpanah" aria-label="GitHub profile" title="GitHub" style="display: inline-flex;">
-        <img src="/assets/img/social/github.svg" width="24" height="24" alt="GitHub">
-      </a>
-    </div>
-    <p>Rostock, Germany</p>
+    <ul aria-label="Profile and contact information" style="list-style: none; padding: 0; margin: 16px 0; display: flex; flex-direction: column; gap: 10px; font-family: system-ui, sans-serif; font-size: 14px; line-height: 1.5;">
+      <li style="display: flex; align-items: center; gap: 12px; color: inherit; text-decoration: none;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="flex-shrink: 0;">
+          <path d="M12 1a8 8 0 0 0-8 8c0 6 8 14 8 14s8-8 8-14a8 8 0 0 0-8-8Zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/>
+        </svg>
+        <span>Rostock, Germany</span>
+      </li>
+      <li>
+        <a href="/assets/pdf/example_pdf.pdf" style="display: flex; align-items: center; gap: 12px; color: inherit; text-decoration: none;">
+          <img src="/assets/img/social/cv.svg" width="14" height="14" alt="" aria-hidden="true" style="flex-shrink: 0;">
+          <span>CV</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:amiryazdanpanah26@gmail.com" style="display: flex; align-items: center; gap: 12px; color: inherit; text-decoration: none;">
+          <img src="/assets/img/social/email.svg" width="14" height="14" alt="" aria-hidden="true" style="flex-shrink: 0;">
+          <span>Email</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Amir-Yazdanpanah" style="display: flex; align-items: center; gap: 12px; color: inherit; text-decoration: none;">
+          <img src="/assets/img/social/github.svg" width="14" height="14" alt="" aria-hidden="true" style="flex-shrink: 0;">
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/amirhosein-yp/" style="display: flex; align-items: center; gap: 12px; color: inherit; text-decoration: none;">
+          <img src="/assets/img/social/linkedin.svg" width="14" height="14" alt="" aria-hidden="true" style="flex-shrink: 0;">
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # profile links are displayed below the photo
