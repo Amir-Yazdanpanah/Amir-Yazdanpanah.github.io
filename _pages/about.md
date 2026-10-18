@@ -51,13 +51,13 @@ My experience spans system-level modeling and software development through RTL d
 
 In Germany, I work on measurement-based energy and execution-time characterization of embedded workloads. This builds on my master’s research into machine-learning-based, cycle-accurate power estimation at RTL. I also investigate the reliability and security of approximate arithmetic in neural networks, studying how bit flips and deliberate attacks affect their predictions and robustness.
 
-<hr style="clear: both; border: 0; border-top: 1px solid var(--global-divider-color, #ddd); margin: 1.5rem 0;">
+<hr style="clear: none; overflow: hidden; border: 0; border-top: 1px solid var(--global-divider-color, #ddd); margin: 1rem 0;">
 
 ## [Publication]({{ '/publications/' | relative_url }})
 
 <hr style="clear: both; border: 0; border-top: 1px solid var(--global-divider-color, #ddd); margin: 1.5rem 0;">
 
-## Selected Projects
+## Projects
 
 {% assign selected_projects = site.projects | where: 'selected', true | sort: 'importance' %}
 {% for project in selected_projects %}

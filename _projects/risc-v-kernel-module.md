@@ -15,4 +15,4 @@ technologies: C · Linux Kernel · QEMU · RISC-V · FPGA
 
 <!-- Add the full project write-up below. -->
 
-[Back to Selected Projects]({{ '/projects/' | relative_url }})
+[Back to Projects]({{ '/projects/' | relative_url }})

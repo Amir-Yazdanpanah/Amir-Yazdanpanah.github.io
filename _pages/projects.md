@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Selected Projects
+title: Projects
 permalink: /projects/
 description: Selected projects in computing systems, hardware design, and FPGA development.
 nav: true
