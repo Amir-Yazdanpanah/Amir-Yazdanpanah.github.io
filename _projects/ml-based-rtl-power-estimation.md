@@ -11,7 +11,7 @@ technologies: Python · Machine Learning · Synopsys Design Compiler · PrimeTim
 
 Developed cycle-accurate RTL power models using machine learning, supported by logic synthesis and reference power analysis for RISC-V processors.
 
-_Python · Machine Learning · Synopsys Design Compiler · PrimeTime PX_
+<p style="font-size: 0.85em;"><em>Python · Machine Learning · Synopsys Design Compiler · PrimeTime PX</em></p>
 
 <!-- Add the full project write-up below. -->
 

@@ -11,7 +11,7 @@ technologies: C/C++ · Vitis HLS · FPGA
 
 Implemented and optimized K-Means using Vitis HLS, exploring pipelining, parallelism, and memory interfaces to balance performance and FPGA resources.
 
-_C/C++ · Vitis HLS · FPGA_
+<p style="font-size: 0.85em;"><em>C/C++ · Vitis HLS · FPGA</em></p>
 
 <!-- Add the full project write-up below. -->
 

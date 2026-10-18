@@ -11,7 +11,7 @@ technologies: RTL Design · Cryptography · FPGA · Xilinx Vivado
 
 Developed FPGA implementations of multiple AES architectures, the Keccak-f[1600] permutation, and an arbiter PUF for hardware security applications.
 
-_RTL Design · Cryptography · FPGA · Xilinx Vivado_
+<p style="font-size: 0.85em;"><em>RTL Design · Cryptography · FPGA · Xilinx Vivado</em></p>
 
 <!-- Add the full project write-up below. -->
 

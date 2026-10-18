@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Rostock, Germany
 
@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <ul aria-label="Profile and contact information" style="list-style: none; padding: 0; margin: 16px 0; display: grid; gap: 10px; font-family: system-ui, sans-serif; font-size: 14px; line-height: 1.5; text-align: left;">
+    <ul aria-label="Profile and contact information" style="list-style: none; padding: 0 0 0 12px; margin: 16px 0; display: grid; gap: 10px; font-family: system-ui, sans-serif; font-size: 14px; line-height: 1.5; text-align: left;">
       <li style="display: grid; grid-template-columns: 14px minmax(0, 1fr); align-items: center; gap: 12px; margin: 0; padding: 0; text-align: left;">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="display: block; width: 14px; height: 14px; margin: 0;">
           <path d="M12 1a8 8 0 0 0-8 8c0 6 8 14 8 14s8-8 8-14a8 8 0 0 0-8-8Zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/>
@@ -58,11 +58,9 @@ In Germany, I work on measurement-based energy and execution-time characterizati
 {% assign selected_projects = site.projects | where: 'selected', true | sort: 'importance' %}
 {% for project in selected_projects %}
 
-### {{ project.title }}
+<h3 style="font-size: 1.5rem;">{{ project.title | escape }}</h3>
 
-{{ project.description }}
+{{ project.description }} <a href="{{ project.url | relative_url }}" aria-label="Read more about {{ project.title | escape }}">Read more</a>
 
-_{{ project.technologies }}_
-
-<a class="btn btn-sm btn-outline-primary" href="{{ project.url | relative_url }}" aria-label="Read more about {{ project.title | escape }}">Read more</a>
+<p style="font-size: 0.85em;"><em>{{ project.technologies | escape }}</em></p>
 {% endfor %}

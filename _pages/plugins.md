@@ -1,6 +1,6 @@
 ---
 layout: page
-title: plugins
+title: Plugins
 permalink: /plugins/
 nav: false
 description: featured and bundled plugin ecosystem catalog for al-folio v1.x
@@ -9,7 +9,7 @@ description: featured and bundled plugin ecosystem catalog for al-folio v1.x
 `al-folio` `v1.x` is a starter with plugin-owned runtime features.
 This page lists plugins recognized in the ecosystem catalog (`_data/featured_plugins.yml`).
 
-## Naming convention
+## Naming Convention
 
 - Theme-coupled plugins:
   - repo: `al-folio-<feature>`
@@ -20,7 +20,7 @@ This page lists plugins recognized in the ecosystem catalog (`_data/featured_plu
 
 Third-party non-`al-*` plugins are also eligible for featuring.
 
-## Bundled plugins
+## Bundled Plugins
 
 {% assign bundled_plugins = site.data.featured_plugins | where: "status", "bundled" %}
 
@@ -51,7 +51,7 @@ Third-party non-`al-*` plugins are also eligible for featuring.
   </tbody>
 </table>
 
-## Featured-only plugins
+## Featured-Only Plugins
 
 {% assign featured_only_plugins = site.data.featured_plugins | where: "status", "featured" %}
 {% if featured_only_plugins.size == 0 %}
@@ -87,7 +87,7 @@ Open a **Plugin Feature Proposal** issue if you want your plugin considered.
 </table>
 {% endif %}
 
-## Proposing a plugin for featuring
+## Proposing a Plugin for Featuring
 
 1. Open a **Plugin Feature Proposal** issue in this repo.
 2. Provide plugin metadata (repo URL, gem name, plugin id, compatibility, demo path, maintainer contact).

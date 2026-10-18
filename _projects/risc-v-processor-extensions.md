@@ -11,7 +11,7 @@ technologies: RISC-V · RTL Design · FPGA Prototyping
 
 Extended the AFTAB RISC-V processor with custom instructions for vector operations and developed a platform-level interrupt controller.
 
-_RISC-V · RTL Design · FPGA Prototyping_
+<p style="font-size: 0.85em;"><em>RISC-V · RTL Design · FPGA Prototyping</em></p>
 
 <!-- Add the full project write-up below. -->
 

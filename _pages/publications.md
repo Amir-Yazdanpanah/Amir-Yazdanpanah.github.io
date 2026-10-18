@@ -26,7 +26,7 @@ First-round review expected by November 1, 2026.
 
 Refined and experimentally validated an open-source, low-cost framework for automated energy and latency characterization of instruction sequences on RISC-V platforms. Demonstrated the importance of measurement-window duration and kernel-level cache flushing for reproducible measurements, and verified key trends with a laboratory-grade current analyzer.
 
-## Published papers
+## Published Papers
 
 <div class="publications">
 
