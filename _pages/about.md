@@ -6,7 +6,7 @@ subtitle: Rostock, Germany
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: portrait-3x4.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <ul aria-label="Profile and contact information" style="list-style: none; padding: 0 0 0 12px; margin: 16px 0; display: grid; gap: 10px; font-family: system-ui, sans-serif; font-size: 14px; line-height: 1.5; text-align: left;">
@@ -51,7 +51,11 @@ My experience spans system-level modeling and software development through RTL d
 
 In Germany, I work on measurement-based energy and execution-time characterization of embedded workloads. This builds on my master’s research into machine-learning-based, cycle-accurate power estimation at RTL. I also investigate the reliability and security of approximate arithmetic in neural networks, studying how bit flips and deliberate attacks affect their predictions and robustness.
 
+<hr style="clear: both; border: 0; border-top: 1px solid var(--global-divider-color, #ddd); margin: 1.5rem 0;">
+
 ## [Publication]({{ '/publications/' | relative_url }})
+
+<hr style="clear: both; border: 0; border-top: 1px solid var(--global-divider-color, #ddd); margin: 1.5rem 0;">
 
 ## Selected Projects
 
@@ -60,7 +64,7 @@ In Germany, I work on measurement-based energy and execution-time characterizati
 
 <h3 style="font-size: 1.5rem;">{{ project.title | escape }}</h3>
 
-{{ project.description }} <a href="{{ project.url | relative_url }}" aria-label="Read more about {{ project.title | escape }}">Read more</a>
+<p style="margin-bottom: 4px;">{{ project.description | escape }} <a href="{{ project.url | relative_url }}" aria-label="Read more about {{ project.title | escape }}">Read more</a></p>
 
-<p style="font-size: 0.85em;"><em>{{ project.technologies | escape }}</em></p>
+<p style="font-size: 0.85em; margin-top: 0;"><em>{{ project.technologies | escape }}</em></p>
 {% endfor %}

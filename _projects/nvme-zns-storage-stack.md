@@ -9,9 +9,9 @@ selected: true
 technologies: C++ · QEMU · libnvme · RocksDB
 ---
 
-Built a storage stack with flash translation, garbage collection, and RocksDB integration, validated on QEMU-emulated ZNS devices.
+<p style="margin-bottom: 4px;">Built a storage stack with flash translation, garbage collection, and RocksDB integration, validated on QEMU-emulated ZNS devices.</p>
 
-<p style="font-size: 0.85em;"><em>C++ · QEMU · libnvme · RocksDB</em></p>
+<p style="font-size: 0.85em; margin-top: 0;"><em>C++ · QEMU · libnvme · RocksDB</em></p>
 
 <!-- Add the full project write-up below. -->
 

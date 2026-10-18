@@ -9,9 +9,9 @@ selected: true
 technologies: RISC-V · RTL Design · FPGA Prototyping
 ---
 
-Extended the AFTAB RISC-V processor with custom instructions for vector operations and developed a platform-level interrupt controller.
+<p style="margin-bottom: 4px;">Extended the AFTAB RISC-V processor with custom instructions for vector operations and developed a platform-level interrupt controller.</p>
 
-<p style="font-size: 0.85em;"><em>RISC-V · RTL Design · FPGA Prototyping</em></p>
+<p style="font-size: 0.85em; margin-top: 0;"><em>RISC-V · RTL Design · FPGA Prototyping</em></p>
 
 <!-- Add the full project write-up below. -->
 
