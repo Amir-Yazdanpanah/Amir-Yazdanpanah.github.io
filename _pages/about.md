@@ -11,11 +11,11 @@ profile:
   more_info: >
     <p>Rostock, Germany</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -26,8 +26,10 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research Associate at the University of Rostock, Germany, and hold a master’s degree in Electrical Engineering, specializing in Digital System Design, from the University of Tehran. My interests lie in hardware–software co-design, with a focus on the energy efficiency, reliability, and security of computing systems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My experience spans system-level modeling and software development through RTL design and FPGA prototyping. I have worked on RISC-V processors and SoCs, Linux kernel modules for controlling processor state, and storage-system projects involving Zoned Namespaces (ZNS), flash translation layers, and garbage collection. These projects have shaped my interest in how software behavior and hardware architecture jointly determine system performance and dependability.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In Germany, I work on measurement-based energy and execution-time characterization of embedded workloads. This builds on my master’s research into machine-learning-based, cycle-accurate power estimation at RTL. I also investigate the reliability and security of approximate arithmetic in neural networks, studying how bit flips and deliberate attacks affect their predictions and robustness.
+
+## [Publication]({{ '/publications/' | relative_url }})
