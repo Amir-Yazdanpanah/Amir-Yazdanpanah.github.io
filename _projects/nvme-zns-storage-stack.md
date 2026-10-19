@@ -3,7 +3,7 @@ layout: page
 title: User-Space NVMe/ZNS Storage Stack
 permalink: /projects/nvme-zns-storage-stack/
 description: Built a storage stack with flash translation, garbage collection, and RocksDB integration, validated on QEMU-emulated ZNS devices.
-importance: 4
+importance: 2
 category: work
 selected: true
 project_icon: /assets/img/project-icons/storage.svg

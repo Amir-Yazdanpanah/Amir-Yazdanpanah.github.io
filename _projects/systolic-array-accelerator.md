@@ -3,7 +3,7 @@ layout: page
 title: Systolic Array Accelerator for Neural Networks
 permalink: /projects/systolic-array-accelerator/
 description: Designed a parameterizable systolic array accelerator for MLPs and CNNs, supporting energy-efficient operation, configurable dataflows, and sparsity-aware computation.
-importance: 5
+importance: 3
 category: work
 selected: true
 project_icon: /assets/img/project-icons/systolic-array.svg

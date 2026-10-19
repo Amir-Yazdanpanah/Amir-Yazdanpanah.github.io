@@ -3,7 +3,7 @@ layout: page
 title: Linux Kernel Module for Controlled RISC-V Energy and Runtime Measurement
 permalink: /projects/risc-v-kernel-module/
 description: Developed a Linux kernel module and execution framework for repeatable energy and runtime measurements on the Banana Pi BPI-F3, combining processor-state preparation, dynamic chunking, and GPIO synchronization.
-importance: 3
+importance: 1
 category: work
 selected: true
 project_icon: /assets/img/project-icons/kernel.svg

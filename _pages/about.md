@@ -58,29 +58,22 @@ In Germany, I work on measurement-based energy and execution-time characterizati
   <a href="{{ '/publications/' | relative_url }}" style="font-size: 0.75rem; font-weight: normal; margin-left: 0.5rem;" aria-label="Read more about publications">Read more</a>
 </h2>
 
+<ul style="list-style-type: disc; padding-left: 1.5rem;">
 {% for paper in site.data.homepage_publications %}
-<h3 style="font-size: 1rem;">
-  {{ paper.title | escape }}
-</h3>
+  <li style="font-size: 1rem; margin-bottom: 0.5rem;">{{ paper.title | escape }}</li>
 {% endfor %}
+</ul>
 
 <hr style="clear: both; border: 0; border-top: 1px solid var(--global-divider-color, #ddd); margin: 1.5rem 0;">
 
 ## Projects
 
 {% assign selected_projects = site.projects | where: 'selected', true | sort: 'importance' %}
-
-<ul style="list-style: none; padding: 0; margin: 0;">
 {% for project in selected_projects %}
-  <li style="display: flex; align-items: flex-start; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--global-divider-color, #ddd);">
-    <img src="{{ project.project_icon | relative_url }}" alt="" width="48" height="48" loading="lazy" style="flex: 0 0 48px; background: #eef5ff; border-radius: 8px;">
-    <div style="min-width: 0;">
-      <h3 style="font-size: 1.1rem; margin: 0 0 0.35rem;"><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h3>
-      <p style="font-size: 0.85rem; margin: 0;"><em>{{ project.technologies | escape }}</em></p>
-      {% if project.github %}
-      <a href="{{ project.github }}" style="font-size: 0.85rem;" aria-label="View {{ project.title | escape }} on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</a>
-      {% endif %}
-    </div>
-  </li>
+
+<h3 style="font-size: 1.5rem;">{{ project.title | escape }}</h3>
+
+<p style="margin-bottom: 4px;">{{ project.description | escape }} <a href="{{ project.url | relative_url }}" aria-label="Read more about {{ project.title | escape }}">Read more</a></p>
+
+<p style="font-size: 0.85em; margin-top: 0;"><em>{{ project.technologies | escape }}</em></p>
 {% endfor %}
-</ul>

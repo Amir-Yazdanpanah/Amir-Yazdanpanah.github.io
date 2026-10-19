@@ -3,7 +3,7 @@ layout: page
 title: RISC-V Processor Extensions
 permalink: /projects/risc-v-processor-extensions/
 description: Extended the AFTAB RISC-V processor with custom instructions for vector operations and developed a platform-level interrupt controller.
-importance: 2
+importance: 7
 category: work
 selected: true
 project_icon: /assets/img/project-icons/risc-v.svg

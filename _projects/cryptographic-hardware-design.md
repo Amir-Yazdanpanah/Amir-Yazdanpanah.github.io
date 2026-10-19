@@ -3,7 +3,7 @@ layout: page
 title: Cryptographic Hardware Design
 permalink: /projects/cryptographic-hardware-design/
 description: Developed FPGA implementations of multiple AES architectures, the Keccak-f[1600] permutation, and an arbiter PUF for hardware security applications.
-importance: 7
+importance: 5
 category: work
 selected: true
 project_icon: /assets/img/project-icons/cryptography.svg

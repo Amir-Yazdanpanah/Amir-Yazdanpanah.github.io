@@ -3,7 +3,7 @@ layout: page
 title: ML-Based RTL Power Estimation
 permalink: /projects/ml-based-rtl-power-estimation/
 description: Developed cycle-accurate RTL power models using machine learning, supported by logic synthesis and reference power analysis for RISC-V processors.
-importance: 1
+importance: 6
 category: work
 selected: true
 project_icon: /assets/img/project-icons/neural-network.svg
