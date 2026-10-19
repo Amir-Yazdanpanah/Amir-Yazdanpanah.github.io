@@ -6,6 +6,7 @@ description: Designed a parameterizable systolic array accelerator for MLPs and 
 importance: 5
 category: work
 selected: true
+project_icon: /assets/img/project-icons/systolic-array.svg
 technologies: RTL Design · Systolic Arrays · FPGA · Neural Network Acceleration
 ---
 

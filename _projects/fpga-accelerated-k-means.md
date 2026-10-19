@@ -6,8 +6,14 @@ description: Implemented and optimized K-Means using Vitis HLS, exploring pipeli
 importance: 6
 category: work
 selected: true
+project_icon: /assets/img/project-icons/clustering.svg
+github: https://github.com/Amir-Yazdanpanah/K-Means_Vitis-HLS
 technologies: C/C++ · Vitis HLS · FPGA
 ---
+
+<p style="font-size: 0.9rem;">
+  <a href="{{ page.github }}"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</a>
+</p>
 
 <p style="margin-bottom: 4px;">Implemented and optimized K-Means using Vitis HLS, exploring pipelining, parallelism, and memory interfaces to balance performance and FPGA resources.</p>
 

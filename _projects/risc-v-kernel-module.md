@@ -6,8 +6,14 @@ description: Developed a Linux kernel module and execution framework for repeata
 importance: 3
 category: work
 selected: true
+project_icon: /assets/img/project-icons/kernel.svg
+github: https://github.com/Amir-Yazdanpanah/cache-flush-0
 technologies: C · Linux Kernel · RISC-V · Banana Pi BPI-F3 · GPIO
 ---
+
+<p style="font-size: 0.9rem;">
+  <a href="{{ page.github }}"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</a>
+</p>
 
 I developed a Linux kernel module and execution framework to support repeatable energy and runtime measurements on the Banana Pi BPI-F3, based on the SpacemiT X60 RISC-V processor. The project addresses a practical challenge in repeated experiments: processor state left by previous executions can influence subsequent measurements.
 

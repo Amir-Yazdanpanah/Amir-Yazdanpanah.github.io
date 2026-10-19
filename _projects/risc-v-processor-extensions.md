@@ -6,6 +6,7 @@ description: Extended the AFTAB RISC-V processor with custom instructions for ve
 importance: 2
 category: work
 selected: true
+project_icon: /assets/img/project-icons/risc-v.svg
 technologies: RISC-V · RTL Design · FPGA Prototyping
 ---
 

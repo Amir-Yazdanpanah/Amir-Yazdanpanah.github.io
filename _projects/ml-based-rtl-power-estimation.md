@@ -6,6 +6,7 @@ description: Developed cycle-accurate RTL power models using machine learning, s
 importance: 1
 category: work
 selected: true
+project_icon: /assets/img/project-icons/neural-network.svg
 technologies: Python · Machine Learning · Synopsys Design Compiler · PrimeTime PX
 ---
 

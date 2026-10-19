@@ -6,6 +6,7 @@ description: Built a storage stack with flash translation, garbage collection, a
 importance: 4
 category: work
 selected: true
+project_icon: /assets/img/project-icons/storage.svg
 github: https://github.com/Amir-Yazdanpanah/storage-system-m1
 technologies: C/C++ · Linux · QEMU · NVMe/ZNS · libnvme · RocksDB
 ---

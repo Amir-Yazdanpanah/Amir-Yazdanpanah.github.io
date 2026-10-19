@@ -6,6 +6,7 @@ description: Developed FPGA implementations of multiple AES architectures, the K
 importance: 7
 category: work
 selected: true
+project_icon: /assets/img/project-icons/cryptography.svg
 github: https://github.com/Amir-Yazdanpanah/Amir-Yazdanpanah-26
 technologies: RTL Design · Cryptography · FPGA · Xilinx Vivado
 ---

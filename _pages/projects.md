@@ -5,60 +5,21 @@ permalink: /projects/
 description: Selected projects in computing systems, hardware design, and FPGA development.
 nav: true
 nav_order: 3
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+{% assign selected_projects = site.projects | where: 'selected', true | sort: 'importance' %}
+
+<ul style="list-style: none; padding: 0; margin: 0;">
+{% for project in selected_projects %}
+  <li style="display: flex; align-items: flex-start; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--global-divider-color, #ddd);">
+    <img src="{{ project.project_icon | relative_url }}" alt="" width="48" height="48" loading="lazy" style="flex: 0 0 48px; background: #eef5ff; border-radius: 8px;">
+    <div style="min-width: 0;">
+      <h3 style="font-size: 1.1rem; margin: 0 0 0.35rem;"><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h3>
+      <p style="font-size: 0.85rem; margin: 0;"><em>{{ project.technologies | escape }}</em></p>
+      {% if project.github %}
+      <a href="{{ project.github }}" style="font-size: 0.85rem;" aria-label="View {{ project.title | escape }} on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub</a>
+      {% endif %}
     </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | where: 'selected', true | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+  </li>
+{% endfor %}
+</ul>
