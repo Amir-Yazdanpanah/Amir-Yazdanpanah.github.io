@@ -534,14 +534,14 @@ ninja.data = [{
           description: "Developed cycle-accurate RTL power models using machine learning, supported by logic synthesis and reference power analysis for RISC-V processors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ml-based-rtl-power-estimation/";
-            },},{id: "projects-nvme-zns-storage-stack",
-          title: 'NVMe/ZNS Storage Stack',
+            },},{id: "projects-user-space-nvme-zns-storage-stack",
+          title: 'User-Space NVMe/ZNS Storage Stack',
           description: "Built a storage stack with flash translation, garbage collection, and RocksDB integration, validated on QEMU-emulated ZNS devices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nvme-zns-storage-stack/";
-            },},{id: "projects-risc-v-kernel-module-for-reproducible-measurements",
-          title: 'RISC-V Kernel Module for Reproducible Measurements',
-          description: "Developed a Linux kernel module for reproducible power and latency measurements, tested in QEMU and deployed on an FPGA-based RISC-V platform.",
+            },},{id: "projects-linux-kernel-module-for-controlled-risc-v-energy-and-runtime-measurement",
+          title: 'Linux Kernel Module for Controlled RISC-V Energy and Runtime Measurement',
+          description: "Developed a Linux kernel module and execution framework for repeatable energy and runtime measurements on the Banana Pi BPI-F3, combining processor-state preparation, dynamic chunking, and GPIO synchronization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/risc-v-kernel-module/";
             },},{id: "projects-risc-v-processor-extensions",
@@ -549,6 +549,11 @@ ninja.data = [{
           description: "Extended the AFTAB RISC-V processor with custom instructions for vector operations and developed a platform-level interrupt controller.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/risc-v-processor-extensions/";
+            },},{id: "projects-systolic-array-accelerator-for-neural-networks",
+          title: 'Systolic Array Accelerator for Neural Networks',
+          description: "Designed a parameterizable systolic array accelerator for MLPs and CNNs, supporting energy-efficient operation, configurable dataflows, and sparsity-aware computation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/systolic-array-accelerator/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
