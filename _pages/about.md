@@ -77,3 +77,23 @@ In Germany, I work on measurement-based energy and execution-time characterizati
 
 <p style="font-size: 0.85em; margin-top: 0;"><em>{{ project.technologies | escape }}</em></p>
 {% endfor %}
+
+<hr style="clear: both; border: 0; border-top: 1px solid var(--global-divider-color, #ddd); margin: 1.5rem 0;">
+
+## Skills & Tools
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 0.5rem 2rem;">
+  <div>
+    <p><strong>Programming Languages:</strong> C++, Python</p>
+    <p><strong>Parallel Computing:</strong> CUDA, OpenMP</p>
+    <p><strong>Frameworks:</strong> PyTorch, PyTorchFI</p>
+  </div>
+  <div>
+    <p><strong>HDLs:</strong> VHDL, SystemVerilog, SystemC</p>
+    <p><strong>SoC Design &amp; Simulation:</strong> Chipyard, gem5, QEMU</p>
+  </div>
+</div>
+
+**Tools:** Cadence Genus, Synopsys Design Compiler, Synopsys PrimeTime PX, Xilinx Vitis
+
+**Boards:** Cmod A7, PYNQ, Zynq, Virtex 7 VC707, Spartan 6
